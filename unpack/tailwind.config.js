@@ -17,8 +17,15 @@ module.exports = {
         borderColor: '#BDBDBD'
       },
       height: {
+        spanHeight: '2px',
         hoverHeight: '3px',
-        homeHeight: '90vh'
+        homeHeight: '75vh'
+      },
+      letterSpacing: {
+        bigger: '5px'
+      },
+      lineHeight: {
+        lineHeight: '58px'
       }
     },
   },
