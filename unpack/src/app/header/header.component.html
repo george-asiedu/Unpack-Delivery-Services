@@ -1,11 +1,49 @@
 <header 
-    class="flex items-center justify-between w-full h-20 bg-black fixed top-0 z-10 px-8 py-12"
+    class="flex items-center justify-between w-full h-20 bg-black fixed top-0 z-10 px-8 py-12 border-b-2 border-white shadow-lg lg:px-24 lg:py-12"
 >
     <div class="flex items-center gap-1">
-        <img src="../../assets/logo.svg" class="" alt="logo-image">
+        <img src="../../assets/logo.svg" alt="logo-image">
         <h1 class="text-white text-3xl flex font-bold">
             <span class="text-heading">UN</span>
             PACK
         </h1>
+    </div>
+    <nav class="hidden lg:block">
+        <ul class="lg:text-white">
+            <li class="lg:block lg:float-left lg:mx-4">
+                <a routerLink="" 
+                    class="active:text-heading after:content-[''] after:block after:bg-heading after:w-0 after:h-hoverHeight after:m-auto after:hover:w-full"
+                >
+                    Home</a>
+            </li>
+            <li class="lg:block lg:float-left lg:mx-4">
+                <a routerLink="" 
+                    class="active:text-heading after:content-[''] after:block after:bg-heading after:w-0 after:h-hoverHeight after:m-auto after:hover:w-full"
+                >
+                    `About Us</a>
+            </li>
+            <li class="lg:block lg:float-left lg:mx-4">
+                <a routerLink="" 
+                    class="active:text-heading after:content-[''] after:block after:bg-heading after:w-0 after:h-hoverHeight after:m-auto after:hover:w-full"
+                >
+                    `Services</a>
+            </li>
+            <li class="lg:block lg:float-left lg:mx-4">
+                <a routerLink="" 
+                    class="active:text-heading after:content-[''] after:block after:bg-heading after:w-0 after:h-hoverHeight after:m-auto after:hover:w-full"
+                >
+                    `Features</a>
+            </li>
+            <li class="lg:block lg:float-left lg:mx-4">
+                <a routerLink="" 
+                    class="active:text-heading after:content-[''] after:block after:bg-heading after:w-0 after:h-hoverHeight after:m-auto after:hover:w-full"
+                >
+                    `Blog</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="lg:hidden">
+        <img src="../../assets/Hamburger Menu.svg" alt="hamburger-menu">
+        <img src="../../assets/close.svg" class="hidden" alt="close-menu">
     </div>
 </header>

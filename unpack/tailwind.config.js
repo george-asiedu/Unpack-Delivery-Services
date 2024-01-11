@@ -15,6 +15,9 @@ module.exports = {
         smallHeading: '#7A7A7A',
         ratings: '#FFC952',
         borderColor: '#BDBDBD'
+      },
+      height: {
+        hoverHeight: '2px'
       }
     },
   },
