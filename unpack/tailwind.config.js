@@ -17,7 +17,7 @@ module.exports = {
         borderColor: '#BDBDBD'
       },
       height: {
-        hoverHeight: '2px'
+        hoverHeight: '3px'
       }
     },
   },
