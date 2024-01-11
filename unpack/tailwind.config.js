@@ -26,6 +26,9 @@ module.exports = {
       },
       lineHeight: {
         lineHeight: '58px'
+      },
+      fontSize: {
+        headerFont: '27px'
       }
     },
   },
