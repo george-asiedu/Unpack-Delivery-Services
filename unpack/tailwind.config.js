@@ -8,18 +8,22 @@ module.exports = {
       fontFamily: {
         'sans-serif': ['Roboto']
       }, 
+      backgroundColor: {
+        cards: '#E9E9E9'
+      },
       colors: {
         heading: '#FF5E41',
         black: '#222',
         paragraph: '#A7A7A7',
         smallHeading: '#7A7A7A',
         ratings: '#FFC952',
-        borderColor: '#BDBDBD'
+        borderColor: '#BDBDBD'        
       },
       height: {
         spanHeight: '2px',
         hoverHeight: '3px',
-        homeHeight: '75vh'
+        homeHeight: '75vh',
+        servicesHeight: '800px'
       },
       letterSpacing: {
         bigger: '5px'
